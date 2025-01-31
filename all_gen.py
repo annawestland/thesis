@@ -92,7 +92,7 @@ def gpt_inference(input_data):
 
 
 #gemini
-genai.configure(api_key="AIzaSyCtAwWrdUsOauw3Ar6RAEPskju0zwGQekE")
+genai.configure(api_key="")
 gemini = genai.GenerativeModel("gemini-1.5-flash")
 
 def gemini_inference(input_data):
